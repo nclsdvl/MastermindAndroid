@@ -29,4 +29,6 @@ public class mastermind extends AppCompatActivity {
     }
 
     // YourView.setBackgroundColor(Color.argb(255, 255, 255, 255));
+
+    
 }
