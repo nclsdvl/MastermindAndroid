@@ -13,7 +13,7 @@ public class mastermind extends AppCompatActivity {
         setContentView(R.layout.mastermind);
 
         View myRectangleViewVert = findViewById(R.id.myRectangleViewVert);
-        myRectangleViewVert.setBackgroundColor(Color.argb(255,0,100,0));
+        myRectangleViewVert.setBackgroundColor(Color.argb(255,50,220,50));
 
         View myRectangleViewRouge = findViewById(R.id.myRectangleViewRouge);
         myRectangleViewRouge.setBackgroundColor(Color.argb(255,200,0,0));
@@ -22,13 +22,13 @@ public class mastermind extends AppCompatActivity {
         myRectangleViewBleu.setBackgroundColor(Color.argb(255,0,0,200));
 
         View myRectangleViewJaune = findViewById(R.id.myRectangleViewJaune);
-        myRectangleViewJaune.setBackgroundColor(Color.argb(255,200,200,0));
+        myRectangleViewJaune.setBackgroundColor(Color.argb(255,255,230,0));
 
         View myRectangleViewViolet = findViewById(R.id.myRectangleViewViolet);
-        myRectangleViewViolet.setBackgroundColor(Color.argb(255,100,0,100));
+        myRectangleViewViolet.setBackgroundColor(Color.argb(255,138,43,226));
     }
 
     // YourView.setBackgroundColor(Color.argb(255, 255, 255, 255));
 
-    
+
 }

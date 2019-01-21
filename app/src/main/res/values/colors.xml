@@ -5,4 +5,5 @@
     <color name="colorAccent">#D81B60</color>
     <color name="bleu_bouton">#56CCF2</color>
     <color name="titre_color">#383692</color>
+    <color name="bleu_fond_jeu">#82CFE8</color>
 </resources>
