@@ -46,6 +46,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="395dp"
@@ -60,396 +62,759 @@
             android:id="@+id/myRectangleViewVert"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:background="@drawable/rectangle" />
 
         <View
             android:id="@+id/myRectangleViewRouge"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:background="@drawable/rectangle" />
 
         <View
             android:id="@+id/myRectangleViewBleu"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:background="@drawable/rectangle" />
 
         <View
             android:id="@+id/myRectangleViewJaune"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:background="@drawable/rectangle" />
 
         <View
             android:id="@+id/myRectangleViewViolet"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:background="@drawable/rectangle" />
 
 
     </LinearLayout>
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="164dp"
         android:layout_height="290dp"
         android:layout_marginStart="13dp"
         android:layout_marginBottom="36dp"
         android:background="@drawable/rounded_button_bgcolor"
+        android:paddingTop="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="3dp">
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginStart="6dp">
 
             <View
-                android:id="@+id/cercleVide1-1"
+                android:id="@+id/cercleVideProposition_1-1"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-"
+                android:id="@+id/cercleVideProposition_1-2"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-2"
+                android:id="@+id/cercleVideProposition_1-3"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-3"
+                android:id="@+id/cercleVideProposition_1-4"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/cerclevide" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="3dp">
-
-            <View
-                android:id="@+id/cercleVide1-1"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/cerclevide" />
-
-            <View
-                android:id="@+id/cercleVide1-"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/cerclevide" />
-
-            <View
-                android:id="@+id/cercleVide1-2"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/cerclevide" />
-
-            <View
-                android:id="@+id/cercleVide1-3"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="6dp"
             android:layout_marginTop="3dp">
 
             <View
-                android:id="@+id/cercleVide1-1"
+                android:id="@+id/cercleVideProposition_2-1"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-"
+                android:id="@+id/cercleVideProposition_2-2"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-2"
+                android:id="@+id/cercleVideProposition_2-3"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-3"
+                android:id="@+id/cercleVideProposition_2-4"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="6dp"
             android:layout_marginTop="3dp">
 
             <View
-                android:id="@+id/cercleVide1-1"
+                android:id="@+id/cercleVideProposition_3-1"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-"
+                android:id="@+id/cercleVideProposition_3-2"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-2"
+                android:id="@+id/cercleVideProposition_3-3"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-3"
+                android:id="@+id/cercleVideProposition_3-4"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="6dp"
             android:layout_marginTop="3dp">
 
             <View
-                android:id="@+id/cercleVide1-1"
+                android:id="@+id/cercleVideProposition_4-1"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-"
+                android:id="@+id/cercleVideProposition_4-2"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-2"
+                android:id="@+id/cercleVideProposition_4-3"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-3"
+                android:id="@+id/cercleVideProposition_4-4"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="3dp">
+
+            <View
+                android:id="@+id/cercleVideProposition_5-1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideProposition_5-2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideProposition_5-3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideProposition_5-4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="6dp"
             android:layout_marginTop="3dp">
 
             <View
-                android:id="@+id/cercleVide1-1"
+                android:id="@+id/cercleVideProposition_6-1"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-"
+                android:id="@+id/cercleVideProposition_6-2"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-2"
+                android:id="@+id/cercleVideProposition_6-3"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-3"
+                android:id="@+id/cercleVideProposition_6-4"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="6dp"
             android:layout_marginTop="3dp">
 
             <View
-                android:id="@+id/cercleVide1-7"
+                android:id="@+id/cercleVideProposition_7-1"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-6"
+                android:id="@+id/cercleVideProposition_7-2"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-5"
+                android:id="@+id/cercleVideProposition_7-3"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-4"
+                android:id="@+id/cercleVideProposition_7-4"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="6dp"
             android:layout_marginTop="3dp">
 
             <View
-                android:id="@+id/cercleVide1-8"
+                android:id="@+id/cercleVideProposition_8-1"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-9"
+                android:id="@+id/cercleVideProposition_8-2"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-10"
+                android:id="@+id/cercleVideProposition_8-3"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-11"
+                android:id="@+id/cercleVideProposition_8-4"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="6dp"
             android:layout_marginTop="3dp">
 
             <View
-                android:id="@+id/cercleVide1-12"
+                android:id="@+id/cercleVideProposition_9-1"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-13"
+                android:id="@+id/cercleVideProposition_9-2"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-14"
+                android:id="@+id/cercleVideProposition_9-3"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-15"
+                android:id="@+id/cercleVideProposition_9-4"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="6dp"
             android:layout_marginTop="3dp">
 
             <View
-                android:id="@+id/cercleVide1-16"
+                android:id="@+id/cercleVideProposition_10-1"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-17"
+                android:id="@+id/cercleVideProposition_10-2"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-18"
+                android:id="@+id/cercleVideProposition_10-3"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
 
             <View
-                android:id="@+id/cercleVide1-19"
+                android:id="@+id/cercleVideProposition_10-4"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+        </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="100dp"
+        android:layout_height="290dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/rounded_button_bgcolor"
+        android:paddingTop="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp">
+
+            <View
+                android:id="@+id/cercleVideSoluce1-1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce1-2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce1-3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce1-4"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="15dp">
+
+            <View
+                android:id="@+id/cercleVideSoluce2-1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce2-2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce2-3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce2-4"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="19dp">
+
+            <View
+                android:id="@+id/cercleVideSoluce3-1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce3-2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce3-3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce3-4"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="18dp">
+
+            <View
+                android:id="@+id/cercleVideSoluce4-1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce4-2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce4-3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce4-4"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="18dp">
+
+            <View
+                android:id="@+id/cercleVideSoluce5-1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce5-2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce5-3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce5-4"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="19dp">
+
+            <View
+                android:id="@+id/cercleVideSoluce6-1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce6-2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce6-3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce6-4"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="19dp">
+
+            <View
+                android:id="@+id/cercleVideSoluce7-1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce7-2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce7-3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce7-4"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="19dp">
+
+            <View
+                android:id="@+id/cercleVideSoluce8-1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce8-2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce8-3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce8-4"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="18dp">
+
+            <View
+                android:id="@+id/cercleVideSoluce9-1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce9-2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce9-3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce9-4"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="18dp">
+
+            <View
+                android:id="@+id/cercleVideSoluce10-1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce10-2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce10-3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cerclevide" />
+
+            <View
+                android:id="@+id/cercleVideSoluce10-4"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/cerclevide" />
         </TableRow>
     </TableLayout>
