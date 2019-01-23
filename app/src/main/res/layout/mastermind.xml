@@ -47,7 +47,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="395dp"
@@ -459,6 +458,7 @@
 
 
     <TableLayout
+        android:id="@+id/soluceTableLayout"
         android:layout_width="100dp"
         android:layout_height="290dp"
         android:layout_marginStart="200dp"
@@ -818,6 +818,16 @@
                 android:background="@drawable/cerclevide" />
         </TableRow>
     </TableLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

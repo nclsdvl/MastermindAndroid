@@ -3,5 +3,7 @@
     <string name="jouer">JOUER</string>
     <string name="regles1">  - Une séquence de 4 couleurs parmis 5 à été \n choisie.</string>
     <string name="regles2">  - Le but est de retrouver cette séquence en moins de 10 essais.</string>
-    <string name="regles3">  - A chaque essai, on vous precisera le nombre de couleurs bien placé (rond vert), le nombre de bonnes couleurs mal placées (rond noir).</string>
+    <string name="regles3">  - A chaque essai, on vous precisera le nombre de bonnes couleurs bien placées (rond vert), le nombre de bonnes couleurs mal placées (rond rouge), les ronds qui restent vides representent les mauvaises couleurs.</string>
+    <string name="felicitation">FELICITATION</string>
+    <string name="looser">LOOSER!!!</string>
 </resources>
