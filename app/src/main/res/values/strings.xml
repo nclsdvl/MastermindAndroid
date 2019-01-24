@@ -6,4 +6,5 @@
     <string name="regles3">  - A chaque essai, on vous precisera le nombre de bonnes couleurs bien placées (rond vert), le nombre de bonnes couleurs mal placées (rond rouge), les ronds qui restent vides representent les mauvaises couleurs.</string>
     <string name="felicitation">FELICITATION</string>
     <string name="looser">LOOSER!!!</string>
+    <string name="congrats">Felicitation</string>
 </resources>
