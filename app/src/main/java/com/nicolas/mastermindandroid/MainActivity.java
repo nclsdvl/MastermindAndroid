@@ -6,11 +6,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
 
+import android.text.format.Time;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
 
 
                         pseudo = monPseudo.getText().toString();
+
+
+
 
                         if (!pseudo.isEmpty()) {
                             Intent intent1 = new Intent(MainActivity.this, mastermind.class);

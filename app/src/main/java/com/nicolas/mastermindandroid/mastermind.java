@@ -168,6 +168,7 @@ public class mastermind extends AppCompatActivity {
 
             LinearLayout layoutDeChoix;
             if(BP == 4){
+                String nbrTour = Integer.toString(countY);
                 maConsigne.setText(getString(R.string.felicitation));
                 maConsigne.setTextSize(32);
                 maConsigne.getLayoutParams().height = 100;
@@ -177,23 +178,24 @@ public class mastermind extends AppCompatActivity {
                 ConstraintLayout layoutParent = findViewById(R.id.linearLayout);
                 layoutParent.removeView(layoutDeChoix);
                 time = SystemClock.elapsedRealtime() - simpleChronometer.getBase();
+                simpleChronometer.stop();
+                String monTempsEnString = (String.valueOf(time/1000));
+
 
 
                 new android.os.Handler().postDelayed(
                         new Runnable() {
                             public void run() {
                                 String nbrTour = Integer.toString(countY);
-
                                 String monTempsEnString = (String.valueOf(time/1000));
                                 Intent intent1 = new Intent(mastermind.this, Score.class);
                                 intent1.putExtra("pseudo",pseudo);
                                 intent1.putExtra("time", monTempsEnString);
                                 intent1.putExtra("nbrTour", nbrTour);
-                                simpleChronometer.stop();
                                 startActivity(intent1);
                                 finish();
                             }
-                        }, 2500);
+                        }, 2000);
 
 
             }
@@ -216,11 +218,13 @@ public class mastermind extends AppCompatActivity {
                                 startActivity(intent1);
                                 finish();
                             }
-                        }, 2500);
+                        }, 2000);
             }
             countX = 0;
             countY --;
         }
     }
+
+
 
 }

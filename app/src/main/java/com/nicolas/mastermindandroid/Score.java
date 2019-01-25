@@ -15,7 +15,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 
 public class Score extends AppCompatActivity{
@@ -50,6 +51,7 @@ public class Score extends AppCompatActivity{
             quitter = findViewById(R.id.Quitter);
             rejouer = findViewById(R.id.Rejouer);
 
+
         }catch (Exception e){
             System.out.println("bug");
         }
@@ -57,6 +59,13 @@ public class Score extends AppCompatActivity{
         monTemps.setText("vous avez réussit en "+calculScoreTime+" secondes");
         monScore = findViewById(R.id.textView12);
         monScore.setText("Votre score est de : "+calculScore());
+
+        Calendar c = Calendar.getInstance();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+        String strDate = sdf.format(c.getTime());
+
+        Winner monJoueur = new Winner(calculScore(),pseudo, strDate);
+
 
         quitter.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,11 +81,13 @@ public class Score extends AppCompatActivity{
                 startActivity(monIntent);
             }
         });
-
+//        this.getSharedPreferences("user_prefs",Context.MODE_PRIVATE);
+        TextView essai = findViewById(R.id.textView13);
+        essai.setText(Winner.monTabHighScore[2].getPseudo()+" "+ Winner.monTabHighScore[2].getDate()+ " " +Winner.monTabHighScore[2].getScore());
 
     }
 
-    private int calculScore(){
+    public int calculScore(){
         monScoreFinal = (Integer.parseInt(nbrTour)+2)*100 + ((120 - Integer.parseInt(time))*10);
         return monScoreFinal;
     }
