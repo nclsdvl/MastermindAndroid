@@ -1,47 +1,46 @@
 package com.nicolas.mastermindandroid;
 
-import android.util.Log;
+import android.app.Activity;
 
-import java.lang.reflect.Array;
-import java.util.Date;
 
-public class Winner {
-    int Score;
+
+public class Winner extends Activity implements Comparable<Winner>{
+    Integer Score;
     String pseudo;
     String date;
-    static  Winner[] monTabHighScore = new Winner[3];
 
-    public Winner(int score, String pseudo, String date) {
+    @Override
+    public String toString() {
+        return "Winner{" +
+                "Score=" + Score +
+                ", pseudo='" + pseudo + '\'' +
+                ", date='" + date + '\'' +
+                '}';
+    }
+
+    // --> creation de la comparaison de Winner
+    @Override
+    public int compareTo(Winner o) {
+        if (o==null){
+            return -1;
+        }
+        else return this.getScore() > o.getScore() ? -1 : this.getScore() < o.getScore() ? 1 : 0;
+
+    }
+
+    public Winner(Integer score, String pseudo, String date) {
         Score = score;
         this.pseudo = pseudo;
         this.date = date;
-        pushWinner();
 
-
-       Log.d("winner", "Winner1: "+monTabHighScore[2].getPseudo());
-
-       if (monTabHighScore[1] != null){
-            Log.d("winner", "Winner2: "+monTabHighScore[1].getPseudo());
-        }
-        else {
-            Log.d("loose 1", "loose");
-        }
-
-        if (monTabHighScore[0] != null){
-            Log.d("winner", "Winner3: "+monTabHighScore[0].getPseudo());
-        }
-        else {
-            Log.d("loose 1", "loose");
-        }
-
-        tri();
     }
+
     public Winner(String pseudo, String date) {
         this.pseudo = pseudo;
         this.date = date;
     }
 
-    public int getScore() {
+    public Integer getScore() {
         return Score;
     }
 
@@ -65,32 +64,6 @@ public class Winner {
         this.date = date;
     }
 
-    private void pushWinner(){
 
-        Log.d("Entree??", "je suis entre dans push: ");
-        if(monTabHighScore[monTabHighScore.length-1] == null){
-            monTabHighScore[monTabHighScore.length-1] = this;
-        }
-        else if (Score > monTabHighScore[monTabHighScore.length-1].getScore() ){
-            monTabHighScore[monTabHighScore.length-1] = this;
-        }
-    }
-
-    public void tri(){
-        for (int i=monTabHighScore.length-1; i>0; i--){
-            if (monTabHighScore[i] != null && monTabHighScore[i-1] != null) {
-
-                if (monTabHighScore[i].getScore() > monTabHighScore[i - 1].getScore()) {
-                    Winner monwinnerTemp = monTabHighScore[i];
-                    monTabHighScore[i] = monTabHighScore[i - 1];
-                    monTabHighScore[i - 1] = monwinnerTemp;
-                }
-            }
-            else if (monTabHighScore[i-1] == null){
-                monTabHighScore[i-1] = monTabHighScore[i];
-                monTabHighScore[i] = null;
-            }
-        }
-    }
 
 }

@@ -1,7 +1,8 @@
 package com.nicolas.mastermindandroid;
 
 import android.util.Log;
-import android.widget.TextView;
+
+
 
 public class ControllerMastermind {
 
@@ -24,6 +25,7 @@ public class ControllerMastermind {
         GenererSolution();
 
     }
+
     public ControllerMastermind( int nbCouleur, int nbPosition, int nbTentative) {
         this.Solution = new int[nbPosition];
         this.Proposition = new int[nbPosition+2][nbTentative];
